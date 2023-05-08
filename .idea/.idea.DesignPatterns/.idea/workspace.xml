@@ -7,7 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aacc66a-0339-4f2f-9bf1-b179159ea8fe" name="Changes" comment="" />
+    <list default="true" id="1aacc66a-0339-4f2f-9bf1-b179159ea8fe" name="Changes" comment="master updated">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +35,9 @@
         <option name="url" value="https://github.com/IsJordanBraz/DesignPatterns.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/jorda/projects/DesignPatterns/DesignPatterns/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -92,6 +98,7 @@
       <updated>1683514204046</updated>
       <workItem from="1683514205428" duration="5109000" />
       <workItem from="1683583047633" duration="940000" />
+      <workItem from="1683584011263" duration="3431000" />
     </task>
     <task id="LOCAL-00001" summary="file created">
       <created>1683515454537</created>
@@ -114,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683583582322</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="master updated">
+      <created>1683584037659</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683584037659</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +146,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="open-closed" />
                       </list>
                     </value>
                   </entry>
@@ -149,6 +163,7 @@
     <MESSAGE value="file created" />
     <MESSAGE value="Single Responsibility Principle" />
     <MESSAGE value="single-responsibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="single-responsibility" />
+    <MESSAGE value="master updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="master updated" />
   </component>
 </project>
