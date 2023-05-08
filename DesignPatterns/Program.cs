@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns
 {
@@ -22,15 +23,16 @@ namespace DesignPatterns
         {
             return string.Join(Environment.NewLine, _entries);
         }
+    }
 
-        public void Save(string filename)
+    public class Persistence
+    {
+        public void SaveToFile(Journal j, string filename, bool overwrite = false)
         {
-            File.WriteAllText(filename, ToString());
-        }
-
-        public static Journal Load(string filename)
-        {
-            
+            if (overwrite || !File.Exists(filename))
+            {
+                File.WriteAllText(filename, j.ToString());
+            }
         }
     }
 
@@ -42,6 +44,11 @@ namespace DesignPatterns
             j.AddEntry("I learning a new language");
             j.AddEntry("I learning CSharp");
             Console.WriteLine(j);
+
+            var p = new Persistence();
+            var filename = @"c:\temp\jornal.txt";
+            p.SaveToFile(j, filename, true);
+            Process.Start(filename);
         }
     }
 }
