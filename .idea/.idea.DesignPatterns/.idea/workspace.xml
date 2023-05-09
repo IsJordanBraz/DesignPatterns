@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aacc66a-0339-4f2f-9bf1-b179159ea8fe" name="Changes" comment="Wrong way">
+    <list default="true" id="1aacc66a-0339-4f2f-9bf1-b179159ea8fe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPatterns/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
